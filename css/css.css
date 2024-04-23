@@ -1,0 +1,32 @@
+/* Styles pour la section parente */
+.fables-bussiness-section {
+    background-color: #f9f9f9;
+    padding: 30px 0;
+}
+
+/* Styles pour la boîte de légende */
+.fables-bussiness-caption {
+    padding: 4rem;
+}
+
+/* Styles pour le titre h2 à l'intérieur de la légende */
+.fables-bussiness-caption h2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    animation-name: fadeInRight;
+    animation-duration: 2s;
+}
+
+/* Styles pour les paragraphes à l'intérieur de la légende */
+.fables-bussiness-caption > div {
+    color: #666;
+    position: relative;
+    z-index: 1;
+    animation-name: fadeInRight;
+    animation-duration: 2s;
+}
+
+/* Ajoutez d'autres styles spécifiques au besoin */
