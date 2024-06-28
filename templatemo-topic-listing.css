@@ -1,0 +1,30 @@
+.hero-section {
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+.hero-section .input-group {
+  
+  padding: 10px 15px;
+}
+
+.hero-section .input-group-text {
+  background-color: transparent;
+  border: 0;
+}
+
+.hero-section input[type="search"] {
+  border: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.hero-section button[type="submit"] {
+  
+  border: 0;
+  border-radius: var(--border-radius-large) !important;
+  color: var(--white-color);
+  max-width: 150px;
+}
